@@ -30,16 +30,17 @@ export default function Home() {
             Join the future of Innovation!
           </motion.p>
           <p className="text-white text-lg w-3/4 text-center">Join us in our journey to equip the next generation of engineers with the knowledge and skills needed to excel. Apply now and be part of a community dedicated to innovation and excellence!</p>
-          <button className="px-4 py-2 backdrop-blur-sm border bg-emerald-300/10 border-emerald-500/20 text-white mx-auto text-center rounded-lg relative mt-4">
-            <span>Join now →</span>
-            <div className="absolute inset-x-0  h-px -bottom-px bg-gradient-to-r w-3/4 mx-auto from-transparent via-emerald-500 to-transparent" />
-          </button>
-          <button className="p-[3px] relative">
-            <div className="absolute inset-0 bg-gradient-to-r from-indigo-500 to-purple-500 rounded-lg" />
-            <div className="px-8 py-2  bg-black rounded-[6px]  relative group transition duration-200 text-white hover:bg-transparent">
-              Visit our website 
-            </div>
-          </button>
+          <div>
+            <button className="p-[3px] m-4 relative">
+              <div className="absolute inset-0 bg-gradient-to-r from-indigo-500 to-purple-500 rounded-lg" />
+              <div className="px-8 py-2  bg-black rounded-[6px] relative group transition duration-200 text-white hover:bg-transparent">
+                Join now
+              </div>
+            </button>
+            <button className="m-4 inline-flex h-12 animate-shimmer items-center justify-center rounded-lg border border-slate-800 bg-black px-6 font-medium text-slate-100 transition-colors focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50">
+              Shimmer
+            </button>
+          </div>
         </motion.div>
 
       </ImagesSlider>
