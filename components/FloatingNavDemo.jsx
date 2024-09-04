@@ -7,14 +7,17 @@ export function FloatingNavDemo() {
       link: "/",
     },
     {
-      name: "About",
-      link: "/about",
+      name: "Results",
+      link: "/results",
     },
     {
-      name: "Contact",
-      link: "/contact",
-      
+      name: "Questions",
+      link: "/questions",
     },
+    {
+      name: "Our Website",
+      link: "https://ecess-nitd-ten.vercel.app/"
+    }
   ];
   return (
     <div className="relative  w-full">

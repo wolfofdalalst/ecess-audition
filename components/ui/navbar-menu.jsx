@@ -6,7 +6,7 @@ import Image from "next/image";
 
 const transition = {
   type: "spring",
-  mass: 0.5,
+  mass: 10,
   damping: 11.5,
   stiffness: 100,
   restDelta: 0.001,
