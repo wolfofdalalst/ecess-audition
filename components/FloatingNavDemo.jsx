@@ -11,8 +11,8 @@ export function FloatingNavDemo() {
       link: "/results",
     },
     {
-      name: "Questions",
-      link: "/questions",
+      name: "Join",
+      link: "/join",
     },
     {
       name: "Our Website",
