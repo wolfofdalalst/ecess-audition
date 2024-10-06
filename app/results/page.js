@@ -11,7 +11,7 @@ export default function ResultsPage() {
             src: "https://images.unsplash.com/photo-1600271772470-bd22a42787b3?q=80&w=3072&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         },
         {
-            title: "Sala behta hi jayega",
+            title: "Behta hi jayega",
             src: "https://images.unsplash.com/photo-1505142468610-359e7d316be0?q=80&w=3070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
         },
         {
@@ -34,8 +34,11 @@ export default function ResultsPage() {
             className="h-full w-full dark:bg-black bg-white  dark:bg-dot-white/[0.2] bg-dot-black/[0.2] relative">
             {/* Radial gradient for the container to give a faded look */}
             <div className="text-white max-w-5xl mx-auto p-8 dark">
-            <p className="text-3xl font-bold m-10">Results</p>
-            <FocusCards cards={cards} />
+                <p className="text-3xl font-bold mx-10 mb-4">Results</p>
+                <p className="text-md mx-10 mb-6 text-slate-300">
+                    Here are the selected inductees for ECESS. We congratulate all the candidates for their outstanding performance and welcome them to the society!
+                </p>
+                <FocusCards cards={cards} />
             </div>
         </div>
     );
